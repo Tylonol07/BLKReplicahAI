@@ -11,7 +11,6 @@ def quiz1():
     return render_template("Quizpg1.html")
 
 @app.route("/Quiz2")
-    # data = request.form[""]
 def quiz2():
     return render_template("Quizpg2.html")
 
@@ -31,34 +30,37 @@ def quiz5():
 def quiz6():
     return render_template("Quizpg6.html")
 #Answer routes
-@app.route("/Ans1")
+@app.route("/Ans1",methods=["POST"])
 def Ans1():
-    return render_template("Anspg1.html")
+    form_data = request.form.get("options")
+    return render_template("Anspg1.html",data=form_data)
 
-@app.route("/Ans2")
+@app.route("/Ans2",methods=["POST"])
 def Ans2():
-    return render_template("Anspg2.html")
+     form_data = request.form.get("options")
+     return render_template("Anspg2.html",data=form_data)
 
-@app.route("/Ans3")
+@app.route("/Ans3",methods=["POST"])
 def Ans3():
-    return render_template("Anspg3.html")
+     form_data = request.form.get("options")
+     return render_template("Anspg3.html",data=form_data)
 
-@app.route("/Ans4")
+@app.route("/Ans4",methods=["POST"])
 def Ans4():
-    return render_template("Anspg4.html")
+     form_data = request.form.get("options")
+     return render_template("Anspg4.html",data=form_data)
 
-@app.route("/Ans5")
+@app.route("/Ans5",methods=["POST"])
 def Ans5():
-    return render_template("Anspg5.html")
+     form_data = request.form.get("options")
+     return render_template("Anspg5.html",data=form_data)
 
-@app.route("/Ans6")
+@app.route("/Ans6",methods=["POST"])
 def Ans6():
-    return render_template("Anspg6.html")
+     form_data = request.form.get("options")
+     return render_template("Anspg6.html",data=form_data)
 
-#connection setup for game page 
-@app.route("/Gamepg")
-def gamePg():
-    return render_template("Gamepg.html")
+    
 # main driver function
 if __name__ == '__main__':
 

@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz page 5</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
     <img height="500" src="static/nwa-AI.jpeg">
     <img height="500" src="static/Nwa-Real.png">
-    <form action="/Ans5">
-    <input type="checkbox"><br>
+    <form action="/Ans5" method="post">
+    <input type="radio" name="options" value="Fake"><br>
           <button type="submit">CHECK</button>
-          <input type="checkbox"><br>
+          <input type="radio"name="options" value="Real"><br>
         </form>
 </body>
 </html>

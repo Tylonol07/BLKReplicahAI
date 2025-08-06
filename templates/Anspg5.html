@@ -5,10 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h1>CORRECT</h1>
+    {% if data == "Real"%}
+    <h1> INCORRECT! This is Real </h1>
+    <img height="500" src="static/Nwa-Real.png">
+    {% endif %}
+
+    {% if data == "Fake"%}
+    <h1> CORRECT! This is AI </h1>
     <img height="500" src="static/nwa-AI.jpeg">
+    {% endif %}
+
+    
     <a href="/Quiz6" target="_self"><button>Next</button></a>
+
 </body>
 </html>
