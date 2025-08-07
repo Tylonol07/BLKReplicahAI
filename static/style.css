@@ -1,3 +1,55 @@
 .mainSec{
-    
+   display: flex; 
+   align-items: center;
+   align-self: center;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+body{
+   background-image: url('Backgroundmain.png');
+}
+
+p{
+  display: flex;
+  align-items: center;
+  align-items: baseline;
+  font-family: Fjalla One;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+.header{
+   font-family: Bungee;
+   color: floralwhite;
+} /*Customization for home page*/
+
+/*Customization for quiz1*/
+h1{
+   font-family: Bungee;
+   color: floralwhite;
+}
+
+#Boximg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content:space-evenly;
+   margin-top: 25px;
+   
+}
+
+form{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content:space-evenly;
+   margin-top: 10px;
+   align-content: space-around;
+   
+}
+
+input[type="radio"]{
+   width: 20px; /* Adjust as needed */
+   height: 20px; /* Adjust as needed */
 }
