@@ -53,3 +53,91 @@ input[type="radio"]{
    width: 20px; /* Adjust as needed */
    height: 20px; /* Adjust as needed */
 }
+
+.Q2img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content:space-evenly;
+   margin-top: 25px;
+}
+
+.Civilimg{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-content:space-evenly;
+   margin-top: 25px;
+}
+
+.Jazzimg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content:space-evenly;
+   margin-top: 25px;
+}
+
+.NWAimg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content:space-evenly;
+   margin-top: 25px;
+}
+
+.Soulimg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content:space-evenly;
+   margin-top: 25px;
+}
+
+.Boxyimg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 15px;
+}
+
+.BlkPantherimg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 15px;
+}
+
+.Civilimg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 15px;
+}
+
+.Jazzyimg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 15px;
+}
+
+.NwaRimg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 15px;
+}
+
+.Souly{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 15px;
+}

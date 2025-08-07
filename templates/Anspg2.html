@@ -18,16 +18,22 @@
 <body>
     <h1 class="header">BLK Replica A.I.</h1>
     {% if data == "Real"%}
+    <div class="BlkPantherimg">
     <h1 class="header"> INCORRECT! This is Real </h1>
     <img height="500" src="static/Blkpanther-real.png">
+    <a href="/Quiz3" target="_self"><button type="submit" class="btn btn-success">NEXT</button></a>
     {% endif %}
+</div>
 
     {% if data == "Fake"%}
+    <div class="BlkPantherimg">
     <h1 class="header"> CORRECT! This is AI </h1>
     <img height="500" src="static/Blkpanther-AI.jpeg">
-    {% endif %}
-    
     <a href="/Quiz3" target="_self"><button type="submit" class="btn btn-success">NEXT</button></a>
+    {% endif %}
+    </div>
+    <br>
+    
 
 </body>
 </html>

@@ -18,18 +18,24 @@
 <body>
     <h1 class="header">BLK Replica A.I.</h1>
     {% if data == "Real"%}
+    <div class="Souly">
     <h1 class="header"> INCORRECT! This is Real </h1>
     <img height="500" src="static/soul-train-Real.png">
+    <a href="/"><button type="submit" class="btn btn-success">RESTART</button></a>
+</div>
     {% endif %}
 
     {% if data == "Fake"%}
+    <div class="Souly">
     <h1 class="header"> CORRECT! This is AI </h1>
     <img height="500" src="static/soul-train-AI.jpeg">
+    <a href="/"><button type="submit" class="btn btn-success">RESTART</button></a>
+</div>
     {% endif %}
 
     
     <p>Your at the end ! you can go back to the homescreen.</p>
-    <a href="/"><button type="submit" class="btn btn-success">RESTART</button></a>
+    
     
 </body>
 </html>
